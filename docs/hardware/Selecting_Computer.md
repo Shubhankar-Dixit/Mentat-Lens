@@ -34,3 +34,16 @@ To keep the experience smooth, the compute platform must prioritize low-latency 
 
 ## Offloading Strategy
 
+- To do this we can offload some of the processing to a companion device, such as a smartphone or a small wearable computer that can be carried in a pocket. This allows the glasses to focus on rendering and display tasks while the companion device handles more intensive computations, such as sensor data processing and AI algorithms. The communication between the glasses and the companion device can be achieved through low-latency wireless protocols like Bluetooth Low Energy (BLE) or Wi-Fi Direct, ensuring that the user experience remains seamless and responsive.
+
+- But I won't be going with this approach because it does not fit the vision of having a self-contained pair of AR glasses that can operate independently without relying on an external device. The goal is to create a truly standalone AR experience, which is more challenging but ultimately more rewarding in terms of user freedom and immersion.
+
+- It should feel like using E.D.I.T.H. while moving towards the idea of becoming a Mentat.
+
+## Data Pipe
+
+* This is the communication link between the glasses and any external devices. If you choose to go with a tethered approach, this becomes a critical factor in ensuring low latency and high bandwidth for data transfer. This is extra information for those who want to go with the tethered approach.
+
+- Even with a powerful external brain, the communication link between the tethered unit and the glasses must support high bandwith to prevent lag that causes motion sickness.
+
+- The wiring used for these tethered systems typically relies on high-speed standards like USB-C or DisplayPort. These cables are thin enough to be wearable but can handle the gigabits of data per second required for high-resolution graphics. *When you select your compute module, you must ensure its 'I/O' can handle these speeds, or you'll find that your hardware can't actually display the complex applications you've designed it to run*.
